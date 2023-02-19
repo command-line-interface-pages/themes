@@ -32,27 +32,27 @@
             "type": "object",
             "properties": {
                 "prefix": {
-                    "description": "Corresponds to $HEADER_COMMAND_PREFIX environment variable",
+                    "description": "Everything before a command name\nCorresponds to $HEADER_COMMAND_PREFIX environment variable",
                     "type": "string",
                     "default": "Command: "
                 },
                 "suffix": {
-                    "description": "Corresponds to $HEADER_COMMAND_SUFFIX environment variable",
+                    "description": "Everything after the last subcommand or a command name\nCorresponds to $HEADER_COMMAND_SUFFIX environment variable",
                     "type": "string",
                     "default": ""
                 },
                 "color": {
-                    "description": "Corresponds to $HEADER_COMMAND_COLOR environment variable",
+                    "description": "A color for a command and subcommand names\nCorresponds to $HEADER_COMMAND_COLOR environment variable",
                     "$ref": "#/definitions/color",
                     "default": "cyan"
                 },
                 "prefix_color": {
-                    "description": "Corresponds to $HEADER_COMMAND_PREFIX_COLOR environment variable",
+                    "description": "A color for everything before a command name\nCorresponds to $HEADER_COMMAND_PREFIX_COLOR environment variable",
                     "$ref": "#/definitions/color",
                     "default": "blue"
                 },
                 "suffix_color": {
-                    "description": "Corresponds to $HEADER_COMMAND_SUFFIX_COLOR environment variable",
+                    "description": "A color for command name and everything after it\nCorresponds to $HEADER_COMMAND_SUFFIX_COLOR environment variable",
                     "$ref": "#/definitions/color",
                     "default": "blue"
                 }
@@ -70,27 +70,27 @@
                     "type": "object",
                     "properties": {
                         "prefix": {
-                            "description": "Corresponds to $SUMMARY_DESCRIPTION_PREFIX environment variable",
+                            "description": "Everything before a command description\nCorresponds to $SUMMARY_DESCRIPTION_PREFIX environment variable",
                             "type": "string",
                             "default": "Description: "
                         },
                         "suffix": {
-                            "description": "Corresponds to $SUMMARY_DESCRIPTION_SUFFIX environment variable",
+                            "description": "Everything after a command description\nCorresponds to $SUMMARY_DESCRIPTION_SUFFIX environment variable",
                             "type": "string",
                             "default": ""
                         },
                         "color": {
-                            "description": "Corresponds to $SUMMARY_DESCRIPTION_COLOR environment variable",
+                            "description": "A color for a command description\nCorresponds to $SUMMARY_DESCRIPTION_COLOR environment variable",
                             "$ref": "#/definitions/color",
                             "default": "cyan"
                         },
                         "prefix_color": {
-                            "description": "Corresponds to $SUMMARY_DESCRIPTION_PREFIX_COLOR environment variable",
+                            "description": "A color for everything before a command description\nCorresponds to $SUMMARY_DESCRIPTION_PREFIX_COLOR environment variable",
                             "$ref": "#/definitions/color",
                             "default": "blue"
                         },
                         "suffix_color": {
-                            "description": "Corresponds to $SUMMARY_DESCRIPTION_SUFFIX_COLOR environment variable",
+                            "description": "A color for everything after a command description\nCorresponds to $SUMMARY_DESCRIPTION_SUFFIX_COLOR environment variable",
                             "$ref": "#/definitions/color",
                             "default": "blue"
                         }
@@ -108,27 +108,27 @@
                             "type": "object",
                             "properties": {
                                 "prefix": {
-                                    "description": "Corresponds to $SUMMARY_ALIASES_PREFIX environment variable",
+                                    "description": "Everything before a tag value\nCorresponds to $SUMMARY_ALIASES_PREFIX environment variable",
                                     "type": "string",
                                     "default": "Aliases: "
                                 },
                                 "suffix": {
-                                    "description": "Corresponds to $SUMMARY_ALIASES_SUFFIX environment variable",
+                                    "description": "Everything after a tag value\nCorresponds to $SUMMARY_ALIASES_SUFFIX environment variable",
                                     "type": "string",
                                     "default": ""
                                 },
                                 "color": {
-                                    "description": "Corresponds to $SUMMARY_ALIASES_COLOR environment variable",
+                                    "description": "A color for a tag value\nCorresponds to $SUMMARY_ALIASES_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "cyan"
                                 },
                                 "prefix_color": {
-                                    "description": "Corresponds to $SUMMARY_ALIASES_PREFIX_COLOR environment variable",
+                                    "description": "A color for everything before tag value\nCorresponds to $SUMMARY_ALIASES_PREFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "blue"
                                 },
                                 "suffix_color": {
-                                    "description": "Corresponds to $SUMMARY_ALIASES_SUFFIX_COLOR environment variable",
+                                    "description": "A color for everything after tag value\nCorresponds to $SUMMARY_ALIASES_SUFFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "blue"
                                 }
@@ -141,27 +141,27 @@
                             "type": "object",
                             "properties": {
                                 "prefix": {
-                                    "description": "Corresponds to $SUMMARY_SEE_ALSO_PREFIX environment variable",
+                                    "description": "Everything before a tag value\nCorresponds to $SUMMARY_SEE_ALSO_PREFIX environment variable",
                                     "type": "string",
                                     "default": "Similar commands: "
                                 },
                                 "suffix": {
-                                    "description": "Corresponds to $SUMMARY_SEE_ALSO_SUFFIX environment variable",
+                                    "description": "Everything after a tag value\nCorresponds to $SUMMARY_SEE_ALSO_SUFFIX environment variable",
                                     "type": "string",
                                     "default": ""
                                 },
                                 "color": {
-                                    "description": "Corresponds to $SUMMARY_SEE_ALSO_COLOR environment variable",
+                                    "description": "A color for a tag value\nCorresponds to $SUMMARY_SEE_ALSO_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "cyan"
                                 },
                                 "prefix_color": {
-                                    "description": "Corresponds to $SUMMARY_SEE_ALSO_PREFIX_COLOR environment variable",
+                                    "description": "A color for everything before a tag value\nCorresponds to $SUMMARY_SEE_ALSO_PREFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "blue"
                                 },
                                 "suffix_color": {
-                                    "description": "Corresponds to $SUMMARY_SEE_ALSO_SUFFIX_COLOR environment variable",
+                                    "description": "A color for everything after tag value\nCorresponds to $SUMMARY_SEE_ALSO_SUFFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "blue"
                                 }
@@ -174,27 +174,27 @@
                             "type": "object",
                             "properties": {
                                 "prefix": {
-                                    "description": "Corresponds to $SUMMARY_MORE_INFORMATION_PREFIX environment variable",
+                                    "description": "Everything before a tag value\nCorresponds to $SUMMARY_MORE_INFORMATION_PREFIX environment variable",
                                     "type": "string",
                                     "default": "Documentation: "
                                 },
                                 "suffix": {
-                                    "description": "Corresponds to $SUMMARY_MORE_INFORMATION_SUFFIX environment variable",
+                                    "description": "Everything after a tag value\nCorresponds to $SUMMARY_MORE_INFORMATION_SUFFIX environment variable",
                                     "type": "string",
                                     "default": ""
                                 },
                                 "color": {
-                                    "description": "Corresponds to $SUMMARY_MORE_INFORMATION_COLOR environment variable",
+                                    "description": "A color for a tag value\nCorresponds to $SUMMARY_MORE_INFORMATION_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "cyan"
                                 },
                                 "prefix_color": {
-                                    "description": "Corresponds to $SUMMARY_MORE_INFORMATION_PREFIX_COLOR environment variable",
+                                    "description": "A color for everything before a tag value\nCorresponds to $SUMMARY_MORE_INFORMATION_PREFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "blue"
                                 },
                                 "suffix_color": {
-                                    "description": "Corresponds to $SUMMARY_MORE_INFORMATION_SUFFIX_COLOR environment variable",
+                                    "description": "A color for everything after tag value\nCorresponds to $SUMMARY_MORE_INFORMATION_SUFFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "blue"
                                 }
@@ -207,27 +207,27 @@
                             "type": "object",
                             "properties": {
                                 "prefix": {
-                                    "description": "Corresponds to $SUMMARY_INTERNAL_PREFIX environment variable",
+                                    "description": "Everything before a tag value\nCorresponds to $SUMMARY_INTERNAL_PREFIX environment variable",
                                     "type": "string",
                                     "default": "[!] "
                                 },
                                 "suffix": {
-                                    "description": "Corresponds to $SUMMARY_INTERNAL_SUFFIX environment variable",
+                                    "description": "Everything after a tag value\nCorresponds to $SUMMARY_INTERNAL_SUFFIX environment variable",
                                     "type": "string",
                                     "default": ""
                                 },
                                 "color": {
-                                    "description": "Corresponds to $SUMMARY_INTERNAL_COLOR environment variable",
+                                    "description": "A color for a tag value\nCorresponds to $SUMMARY_INTERNAL_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "cyan"
                                 },
                                 "prefix_color": {
-                                    "description": "Corresponds to $SUMMARY_INTERNAL_PREFIX_COLOR environment variable",
+                                    "description": "A color for everything before tag value\nCorresponds to $SUMMARY_INTERNAL_PREFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "red"
                                 },
                                 "suffix_color": {
-                                    "description": "Corresponds to $SUMMARY_INTERNAL_SUFFIX_COLOR environment variable",
+                                    "description": "A color for everything after tag value\nCorresponds to $SUMMARY_INTERNAL_SUFFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "red"
                                 }
@@ -240,27 +240,27 @@
                             "type": "object",
                             "properties": {
                                 "prefix": {
-                                    "description": "Corresponds to $SUMMARY_DEPRECATED_PREFIX environment variable",
+                                    "description": "Everything before a tag value\nCorresponds to $SUMMARY_DEPRECATED_PREFIX environment variable",
                                     "type": "string",
                                     "default": "[!] "
                                 },
                                 "suffix": {
-                                    "description": "Corresponds to $SUMMARY_DEPRECATED_SUFFIX environment variable",
+                                    "description": "Everything after a tag value\nCorresponds to $SUMMARY_DEPRECATED_SUFFIX environment variable",
                                     "type": "string",
                                     "default": ""
                                 },
                                 "color": {
-                                    "description": "Corresponds to $SUMMARY_DEPRECATED_COLOR environment variable",
+                                    "description": "A color for a tag value\nCorresponds to $SUMMARY_DEPRECATED_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "cyan"
                                 },
                                 "prefix_color": {
-                                    "description": "Corresponds to $SUMMARY_DEPRECATED_PREFIX_COLOR environment variable",
+                                    "description": "A color for everything before tag value\nCorresponds to $SUMMARY_DEPRECATED_PREFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "red"
                                 },
                                 "suffix_color": {
-                                    "description": "Corresponds to $SUMMARY_DEPRECATED_SUFFIX_COLOR environment variable",
+                                    "description": "A color for everything after tag value\nCorresponds to $SUMMARY_DEPRECATED_SUFFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "red"
                                 }
