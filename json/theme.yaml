@@ -1,0 +1,35 @@
+header:
+  prefix: "{ "
+  suffix: " }"
+summary:
+  description:
+    prefix: "{ description: \""
+    suffix: "\" }"
+  tag:
+    more-information:
+      prefix: "{ documentation: \""
+      suffix: "\" }"
+    internal:
+      prefix: "# warning"
+    deprecated:
+      prefix: "# warning"
+    aliases:
+      prefix: "{ aliases: ["
+      suffix: "] }"
+    see-also:
+      prefix: "{ see-also: ["
+      suffix: "] }"
+example:
+  description:
+    prefix: "# "
+    color: light-green
+    prefix_color: green
+    suffix_color: green
+    mnemonic:
+      prefix: "{"
+      suffix: "}"
+    stream:
+      prefix: "'"
+      suffix: "'"
+  code:
+    prefix: "$ "

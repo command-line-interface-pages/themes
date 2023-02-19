@@ -1,0 +1,30 @@
+summary:
+  description:
+    prefix: "~ "
+    suffix: " ~"
+  tag:
+    more-information:
+      prefix: "-- doc: "
+    internal:
+      prefix: "-- "
+    deprecated:
+      prefix: "-- "
+    aliases:
+      prefix: "-- other names: "
+    see-also:
+      prefix: "-- similar: "
+example:
+  description:
+    prefix: "~ "
+    suffix: " ~"
+    color: light-green
+    prefix_color: green
+    suffix_color: green
+    mnemonic:
+      prefix: "*"
+      suffix: "*"
+    stream:
+      prefix: "'"
+      suffix: "'"
+  code:
+    prefix: "# "
