@@ -284,27 +284,27 @@
                     "type": "object",
                     "properties": {
                         "prefix": {
-                            "description": "Corresponds to $CODE_DESCRIPTION_PREFIX environment variable",
+                            "description": "Everything before a code description\nCorresponds to $CODE_DESCRIPTION_PREFIX environment variable",
                             "type": "string",
                             "default": "- "
                         },
                         "suffix": {
-                            "description": "Corresponds to $CODE_DESCRIPTION_SUFFIX environment variable",
+                            "description": "Everything after a code description\nCorresponds to $CODE_DESCRIPTION_SUFFIX environment variable",
                             "type": "string",
                             "default": ""
                         },
                         "color": {
-                            "description": "Corresponds to $CODE_DESCRIPTION_COLOR environment variable",
+                            "description": "A color for a code description\nCorresponds to $CODE_DESCRIPTION_COLOR environment variable",
                             "$ref": "#/definitions/color",
                             "default": "blue"
                         },
                         "prefix_color": {
-                            "description": "Corresponds to $CODE_DESCRIPTION_PREFIX_COLOR environment variable",
+                            "description": "A color for everything before a code description\nCorresponds to $CODE_DESCRIPTION_PREFIX_COLOR environment variable",
                             "$ref": "#/definitions/color",
                             "default": "magenta"
                         },
                         "suffix_color": {
-                            "description": "Corresponds to $CODE_DESCRIPTION_SUFFIX_COLOR environment variable",
+                            "description": "A color for everything after a code description\nCorresponds to $CODE_DESCRIPTION_SUFFIX_COLOR environment variable",
                             "$ref": "#/definitions/color",
                             "default": "magenta"
                         },
@@ -314,27 +314,27 @@
                             "type": "object",
                             "properties": {
                                 "prefix": {
-                                    "description": "Corresponds to $CODE_DESCRIPTION_MNEMONIC_PREFIX environment variable",
+                                    "description": "Everything before a code description mnemonic\nCorresponds to $CODE_DESCRIPTION_MNEMONIC_PREFIX environment variable",
                                     "type": "string",
                                     "default": ""
                                 },
                                 "suffix": {
-                                    "description": "Corresponds to $CODE_DESCRIPTION_MNEMONIC_SUFFIX environment variable",
+                                    "description": "Everything after a code description mnemonic\nCorresponds to $CODE_DESCRIPTION_MNEMONIC_SUFFIX environment variable",
                                     "type": "string",
                                     "default": ""
                                 },
                                 "color": {
-                                    "description": "Corresponds to $CODE_DESCRIPTION_MNEMONIC_COLOR environment variable",
+                                    "description": "A color for a code description mnemonic\nCorresponds to $CODE_DESCRIPTION_MNEMONIC_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "light-red"
                                 },
                                 "prefix_color": {
-                                    "description": "Corresponds to $CODE_DESCRIPTION_MNEMONIC_PREFIX_COLOR environment variable",
+                                    "description": "A color for everything before a code description mnemonic\nCorresponds to $CODE_DESCRIPTION_MNEMONIC_PREFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "red"
                                 },
                                 "suffix_color": {
-                                    "description": "Corresponds to $CODE_DESCRIPTION_MNEMONIC_SUFFIX_COLOR environment variable",
+                                    "description": "A color for everything after a code description mnemonic\nCorresponds to $CODE_DESCRIPTION_MNEMONIC_SUFFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "red"
                                 }
@@ -347,27 +347,27 @@
                             "type": "object",
                             "properties": {
                                 "prefix": {
-                                    "description": "Corresponds to $CODE_DESCRIPTION_STREAM_PREFIX environment variable",
+                                    "description": "Everything before a code description I/O stream\nCorresponds to $CODE_DESCRIPTION_STREAM_PREFIX environment variable",
                                     "type": "string",
                                     "default": ""
                                 },
                                 "suffix": {
-                                    "description": "Corresponds to $CODE_DESCRIPTION_STREAM_SUFFIX environment variable",
+                                    "description": "Everything after a code description I/O stream\nCorresponds to $CODE_DESCRIPTION_STREAM_SUFFIX environment variable",
                                     "type": "string",
                                     "default": ""
                                 },
                                 "color": {
-                                    "description": "Corresponds to $CODE_DESCRIPTION_STREAM_COLOR environment variable",
+                                    "description": "A color for a code description I/O stream\nCorresponds to $CODE_DESCRIPTION_STREAM_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "light-cyan"
                                 },
                                 "prefix_color": {
-                                    "description": "Corresponds to $CODE_DESCRIPTION_STREAM_PREFIX_COLOR environment variable",
+                                    "description": "A color for everything before a code description I/O stream\nCorresponds to $CODE_DESCRIPTION_STREAM_PREFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "red"
                                 },
                                 "suffix_color": {
-                                    "description": "Corresponds to $CODE_DESCRIPTION_STREAM_SUFFIX_COLOR environment variable",
+                                    "description": "A color for everything after a code description I/O stream\nCorresponds to $CODE_DESCRIPTION_STREAM_SUFFIX_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "red"
                                 }
@@ -383,27 +383,27 @@
                     "type": "object",
                     "properties": {
                         "prefix": {
-                            "description": "Corresponds to $CODE_EXAMPLE_PREFIX environment variable",
+                            "description": "Everything before a code example\nCorresponds to $CODE_EXAMPLE_PREFIX environment variable",
                             "type": "string",
                             "default": "- "
                         },
                         "suffix": {
-                            "description": "Corresponds to $CODE_EXAMPLE_SUFFIX environment variable",
+                            "description": "Everything after a code example\nCorresponds to $CODE_EXAMPLE_SUFFIX environment variable",
                             "type": "string",
                             "default": ""
                         },
                         "color": {
-                            "description": "Corresponds to $CODE_EXAMPLE_COLOR environment variable",
+                            "description": "A color for a code example\nCorresponds to $CODE_EXAMPLE_COLOR environment variable",
                             "$ref": "#/definitions/color",
                             "default": "blue"
                         },
                         "prefix_color": {
-                            "description": "Corresponds to $CODE_EXAMPLE_PREFIX_COLOR environment variable",
+                            "description": "A color for everything before a code example\nCorresponds to $CODE_EXAMPLE_PREFIX_COLOR environment variable",
                             "$ref": "#/definitions/color",
                             "default": "magenta"
                         },
                         "suffix_color": {
-                            "description": "Corresponds to $CODE_EXAMPLE_SUFFIX_COLOR environment variable",
+                            "description": "A color for everything after a code example\nCorresponds to $CODE_EXAMPLE_SUFFIX_COLOR environment variable",
                             "$ref": "#/definitions/color",
                             "default": "magenta"
                         },
@@ -413,27 +413,27 @@
                             "type": "object",
                             "properties": {
                                 "required": {
-                                    "description": "Corresponds to $CODE_EXAMPLE_PLACEHOLDER_REQUIRED_KEYWORD_COLOR environment variable",
+                                    "description": "A color for a code example placeholder keyword which doesn't have any quantifier\nCorresponds to $CODE_EXAMPLE_PLACEHOLDER_REQUIRED_KEYWORD_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "red"
                                 },
                                 "optional": {
-                                    "description": "Corresponds to $CODE_EXAMPLE_PLACEHOLDER_OPTIONAL_KEYWORD_COLOR environment variable",
+                                    "description": "A color for a code example placeholder keyword which has '?' quantifier\nCorresponds to $CODE_EXAMPLE_PLACEHOLDER_OPTIONAL_KEYWORD_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "green"
                                 },
                                 "repeated-required": {
-                                    "description": "Corresponds to $CODE_EXAMPLE_PLACEHOLDER_REPEATED_REQUIRED_KEYWORD_COLOR environment variable",
+                                    "description": "A color for a code example placeholder keyword which has '+' quantifier or range quantifier with <from> greater than 0\nCorresponds to $CODE_EXAMPLE_PLACEHOLDER_REPEATED_REQUIRED_KEYWORD_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "blue"
                                 },
                                 "repeated-optional": {
-                                    "description": "Corresponds to $CODE_EXAMPLE_PLACEHOLDER_REPEATED_OPTIONAL_KEYWORD_COLOR environment variable",
+                                    "description": "A color for a code example placeholder keyword which has '*' quantifier or range quantifier with <from> greater or equal to 0\nCorresponds to $CODE_EXAMPLE_PLACEHOLDER_REPEATED_OPTIONAL_KEYWORD_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "yellow"
                                 },
                                 "example": {
-                                    "description": "Corresponds to $CODE_EXAMPLE_PLACEHOLDER_EXAMPLE_COLOR environment variable",
+                                    "description": "A color for a code example placeholder sample\nCorresponds to $CODE_EXAMPLE_PLACEHOLDER_EXAMPLE_COLOR environment variable",
                                     "$ref": "#/definitions/color",
                                     "default": "cyan"
                                 }
