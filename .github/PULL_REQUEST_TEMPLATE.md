@@ -4,7 +4,7 @@
 
 Put here your theme description.
 
-**Minimum required render version**: latest
+**Minimum required syntax version**: latest
 
 ## Other
 
