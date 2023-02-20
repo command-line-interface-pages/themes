@@ -8,4 +8,4 @@ Put here your theme description.
 
 ## Other
 
-[ ] I've read the [contributing guide](../CONTRIBUTING.md).
+- [ ] I've read the [contributing guide](../CONTRIBUTING.md).
