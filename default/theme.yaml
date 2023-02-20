@@ -1,6 +1,6 @@
 header:
   prefix: "[ "
-  suffix: " ]"
+  wrong: " ]"
 summary:
   description:
     prefix: "What is it? "
