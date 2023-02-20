@@ -1,0 +1,31 @@
+header:
+  prefix: "📖 "
+summary:
+  description:
+    prefix: "💡 "
+  tag:
+    more-information:
+      prefix: "🔗 more details "
+    internal:
+      prefix: "⛔ "
+    deprecated:
+      prefix: "⛔ "
+    aliases:
+      prefix: "🏷️ aliases "
+    see-also:
+      prefix: "📚 similar commands "
+example:
+  description:
+    prefix: "🌼 /* "
+    suffix: " */"
+    color: light-green
+    prefix_color: green
+    suffix_color: green
+    mnemonic:
+      prefix: "("
+      suffix: ")"
+    stream:
+      prefix: "'"
+      suffix: "'"
+  code:
+    prefix: "$ "
