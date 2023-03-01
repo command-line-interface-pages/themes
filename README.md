@@ -7,7 +7,7 @@ Themes.
 ## Current goals :checkered_flag:
 
 - Update all themes to support all [v2.7.0 syntax](https://github.com/command-line-interface-pages/syntax/blob/main/base.md)
-  features placeholder prefixes and suffixes
+  features like placeholder prefixes and suffixes
 
 ## Quick introduction :rocket:
 
@@ -19,6 +19,6 @@ theme like this: `clip-view --theme awesome cat`
 
 Theme is a YAML file itself.
 
-## Writing pages :hammer_and_wrench:
+## Writing themes :hammer_and_wrench:
 
 Read [this](./CONTRIBUTING.md) guide for details.
