@@ -9,8 +9,9 @@ Themes.
 
 ## Quick introduction :rocket:
 
-To get help for `cat` command with default theme type `clip-view cat`. If you need a more beautiful
-output you can use [this](https://github.com/command-line-interface-pages/themes/tree/main/awesome)
+To get help for `cat` command with default theme type `clip-view cat`. If you
+need a more beautiful output you can use
+[this](https://github.com/command-line-interface-pages/themes/tree/main/awesome)
 theme like this: `clip-view --theme awesome cat`
 
 ![clip page](./clip-page.png)

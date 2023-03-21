@@ -5,6 +5,15 @@ on:
       - main
 
 jobs:
+  lint-with-markdownlint:
+    name: Lint with `markdownlint`
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          shopt -s globstar
+          npm install -g markdownlint-cli
+          markdownlint **/*.md
   lint-with-jsonschema-cli:
     name: Lint with `jsonschema-cli`
     runs-on: ubuntu-22.04
