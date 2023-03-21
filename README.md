@@ -1,13 +1,11 @@
 # Themes
 
 [![CI](https://github.com/command-line-interface-pages/themes/actions/workflows/ci.yaml/badge.svg)](https://github.com/command-line-interface-pages/themes/actions/workflows/ci.yaml)
+[![goals](https://img.shields.io/badge/Current-goals-a32236?labelColor=ed425c&style=flat-square)][goals]
 
 Themes.
 
-## Current goals :checkered_flag:
-
-- Update all themes to support all [v2.7.0 syntax](https://github.com/command-line-interface-pages/syntax/blob/main/base.md)
-  features like placeholder prefixes and suffixes
+[goals]: https://command-line-interface-pages.github.io/site.github.io/goals/#themesthemes-
 
 ## Quick introduction :rocket:
 
