@@ -9,7 +9,7 @@
 
 ## How to get started?
 
-Before writing your own theme try explore existing ones with preinstalled prerequisites.
+Before writing your own theme try to explore existing ones with preinstalled prerequisites.
 Start with the simplest [default](./default/theme.yaml) theme.
 
 Each theme can set up one or several following aspects of rendered pages:
