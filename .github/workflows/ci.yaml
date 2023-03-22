@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: arduino/setup-task@v1
-      - run:
+      - run: |
           npm install -g markdownlint-cli
           pip3 install -t "$HOME/.local/bin:$PATH" jsonschema-cli
       - run: PATH="$HOME/.local/bin:$PATH" task
