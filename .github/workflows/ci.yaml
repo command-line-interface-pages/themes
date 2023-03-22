@@ -5,23 +5,10 @@ on:
       - main
 
 jobs:
-  lint-with-markdownlint:
-    name: Lint with `markdownlint`
+  lint:
+    name: Lint
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-      - run: |
-          shopt -s globstar
-          npm install -g markdownlint-cli
-          markdownlint **/*.md
-  lint-with-jsonschema-cli:
-    name: Lint with `jsonschema-cli`
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v3
-      - run: |
-          pip3 install jsonschema-cli
-          for directory in */; do
-            env -C "$directory" jsonschema-cli validate "../theme.json" "theme.yaml"
-          done
-          
+      - uses: arduino/setup-task@v1
+      - run: task
