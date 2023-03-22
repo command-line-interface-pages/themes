@@ -14,4 +14,4 @@ jobs:
       - run: |
           npm install -g markdownlint-cli
           pip3 install jsonschema-cli
-      - run: echo "$PATH"
+      - run: task
