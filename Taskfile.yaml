@@ -1,0 +1,18 @@
+version: 3
+
+shopt: [globstar]
+
+tasks:
+  default:
+    deps: [lint-with-markdownlint, lint-with-jsonschema-cli]
+  
+  lint-with-markdownlint:
+    cmds:
+      - markdownlint **/*.md
+  
+  lint-with-jsonschema-cli:
+    cmds:
+      - |
+        for directory in */; do
+          env -C "$directory" jsonschema-cli validate "../theme.json" "theme.yaml"
+        done
