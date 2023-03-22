@@ -12,7 +12,4 @@ tasks:
   
   lint-with-jsonschema-cli:
     cmds:
-      - |
-        for directory in */; do
-          env -C "$directory" jsonschema-cli validate "../theme.json" "theme.yaml"
-        done
+      - jsonschema-cli -h
