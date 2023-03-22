@@ -13,5 +13,5 @@ jobs:
       - uses: arduino/setup-task@v1
       - run:
           npm install -g markdownlint-cli
-          pip3 install jsonschema-cli
+          pip3 install -t "$HOME/.local/bin:$PATH" jsonschema-cli
       - run: PATH="$HOME/.local/bin:$PATH" task
