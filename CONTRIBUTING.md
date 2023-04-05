@@ -4,8 +4,9 @@
 
 ### Visual Studio Code
 
+- [common extensions](https://command-line-interface-pages.github.io/site.github.io/extensions/)
 - YAML:
-  - [YAML (IntelliSence)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+  - [YAML (linter, formatter, intellisence, snippets)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 ## How to get started?
 
